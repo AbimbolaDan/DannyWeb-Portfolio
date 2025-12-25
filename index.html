@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Abimbola Daniel">
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>DANNYWEB soln</title>
+</head>
+<body>
+    <header id="nav_section">
+        <nav id="navigation">
+            <a href="./index.html" class="brand">DANNYWEB</a>
+            <ul id="navigation-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#section-about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="toggle-switch">
+                <label class="switch-label">
+                <input type="checkbox" class="checkbox">
+                <span class="slider"></span>
+                </label>
+        </div> 
+            <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+                <span class="sr-only"></span>
+            </button>
+        </nav>
+</header>
+
+<main>
+    <section id="description">
+        <div id="aboutme">
+            <div class="about-container">
+                <p class="Hello">HELLO, I'M</p>
+                <h1 class="name">Abimbola Daniel</h1>
+                <p class="job">a front-end Developer & Problem Solver</p>
+                <p class="job-description">I transform complex ideas into intuitive digital experiences. Specializing in building high-performance, accessible web applications that users love to interact with.
+                </p>
+            <div class="button-container">
+                <a href="#project" class="view">View my work</a>
+                <a href="./assets/Abimbola_Daniel_Resume.pdf" 
+                    target="_blank" 
+                    class="touch">
+                    <i class="fa-solid fa-file-pdf" style="margin-right: 8px;"></i> Resume
+                </a>
+                <a href="#contact" class="touch">Get in Touch</a>
+            </div>
+            </div>
+            <div id="mypic">
+                <img src="./imgs/daniel.jpg" alt="An image of me" class="pic">
+            <div class="html-svg">
+                 <img src="./imgs/css.png" alt="css icon" class="css" aria-hidden="true">
+                 <img src="./imgs/html.png" alt="html icon" class="html" aria-hidden="true">
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-about">
+            <h3 class="h3-text"> About me</h3>
+            <p class="text">
+             I am a Front-End Developer dedicated to building the architectural foundation of the web. I specialize in crafting clean, high-performance interfaces using HTML5, CSS3, and JavaScript.
+            <br> <br>
+             <span class="text-span1">
+             My focus is on Responsive Web Design—ensuring that every site I build looks and functions perfectly on everything from a smartphone to a high-resolution desktop. I leverage frameworks like Bootstrap and Tailwind CSS to speed up development without sacrificing the quality of the user experience.
+               <br>
+             </span>
+            <br>
+             I believe that a great website is built on a balance of accessibility, speed, and aesthetics. I am constantly refining my skills in modern JavaScript and CSS animations to bring creative designs to life in the most efficient way possible.
+            </p>
+    </section>
+
+     <section id="skills" class="section skills">
+    <div class="container-skills">
+        <h2 class="h3-text">Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h4 class="h4-skills">Core Development</h4>
+                <ul>
+                    <li class="lists">HTML5 & Semantic Markup</li>
+                    <li class="lists">CSS3 & Modern Layouts</li>
+                    <li class="lists">JavaScript (ES6+)</li>
+                    <li class="lists">DOM Manipulation</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h4 class="h4-skills">UI & Styling</h4>
+                <ul>
+                    <li class="lists">Tailwind CSS</li>
+                    <li class="lists">Bootstrap 5</li>
+                    <li class="lists">Responsive Design</li>
+                    <li class="lists">CSS Animations</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h4 class="h4-skills">Tools & Workflow</h4>
+                <ul>
+                    <li class="lists">Git & GitHub</li>
+                    <li class="lists">VS Code</li>
+                    <li class="lists">Browser DevTools</li>
+                    <li class="lists">Netlify / Vercel</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="project">
+    <div class="container-project">
+        <h3 class="h3-text">Selected Projects</h3>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./imgs/localtransport.png" alt="Landing Page Preview">
+                </div>
+                <div class="project-content">
+                    <h4 class="project-title">Local Transport tracker Landing Page</h4>
+                    <p class="project-text">
+                        A fully responsive landing page built with a mobile-first approach. Focused on clean typography and high-performance CSS animations.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://gomeetlocation.netlify.app/" class="view-btn" target="_blank">Live Demo</a>
+                        <a href="#" class="code-btn">View Code</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+</section>
+
+     <section id="experience">
+    <div class="experience-block">
+        <h3 class="h3-text">My Experience</h3>
+    <div class="experience-container">
+        <div class="timeline-item">
+            <div class="timeline-date">Nov 2024 - Present</div>
+            <div class="timeline-content">
+                <h3 class="job-type">Front-end Developer</h3>
+                <span class="company">Freelance</span>
+                <ul>
+                    <li>Building responsive, user-focused websites using HTML, CSS, JavaScript, and Bootstrap.</li>
+                    <li>Translating client ideas into clean, modern interfaces with a focus on usability.</li>
+                    <li>Utilizing Git and GitHub for version control and project management.</li>
+                    <li>Delivering high-performance digital solutions while continuously refining my technical workflow.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+   <section id="contact">
+    <div class="message-me">
+        <h3 class="h3-text">Contact Me</h3>
+    <div class="contact-wrapper">
+        <div class="contact-info">
+            <h3>Let's build something <span style="color: var(--primary-color);">extraordinary</span>.</h3>
+            <p>Whether you have a specific project in mind or just want to chat about front-end possibilities, I'm always open to new connections.</p>
+            <div class="contact-details">
+                <p><strong>Location:</strong> Lagos, Nigeria</p>
+                <p><strong>Availability:</strong> Open for Freelance</p>
+            </div>
+        </div>
+
+        <div class="contactme">
+            <form name="contact" method="POST" data-netlify="true">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Abimbola Daniel" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="dabimbola343@gmail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Project Details</label>
+                    <textarea name="message" id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <div class="footer-min">
+        <div class="footer-left-min">
+            <a href="#" class="footer-logo-min">DANNYWEB</a>
+            <div class="footer-line"></div>
+            <div class="footer-status">
+                <span class="status-dot"></span> Available for new projects
+            </div>
+            <div class="Author-name">&copy; 2025 Abimbola Daniel. All Rights Reserved</div>
+        </div>
+
+        <div class="footer-right-min">
+            <a href="https://github.com/AbimbolaDan" target="_blank" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/abimbola-daniel-66793730b" target="_blank" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="mailto:dabimbola343@gmail.com" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+
+<script src="./portfolio.js"></script>
+</body>
+</html>
