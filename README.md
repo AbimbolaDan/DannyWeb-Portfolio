@@ -3,7 +3,7 @@
 A high-performance, responsive portfolio website showcasing modern web development techniques, including custom CSS animations, theme switching, and scroll-linked interactions.
 
 ## 🚀 Live Demo
-**[View the Live Project Here](https://your-netlify-url-here.netlify.app/)** *(Note: Replace the link above with your actual Netlify URL once deployed)*
+**[View the Live Project Here](https://your-netlify-url-here.netlify.app/)** 
 
 ## ✨ Key Features
 * **Dynamic Theme Switcher**: A custom-built Dark/Light mode toggle that persists using `localStorage`.
@@ -25,4 +25,4 @@ A high-performance, responsive portfolio website showcasing modern web developme
 ├── imgs/               # Optimized project and profile images
 ├── index.html          # Main entry point
 ├── styling.css         # Custom themed styles
-└── portfolio.js        # Scroll logic and theme switching
+└── portfolio.js        # Scroll logic and theme switchingg
