@@ -931,7 +931,7 @@ footer {
     .brand{
         display: block;
         order: 0;
-        margin: 0 40px;
+        margin: 0 5px;
     }
     #navigation-links {
         display: none;
@@ -969,7 +969,7 @@ footer {
         width: 100%;
     }
     .toggle-switch {
-        margin-right: 10px; 
+        margin-left: 20px; 
         order: 1;
     }
     #aboutme{
@@ -983,7 +983,7 @@ footer {
     .button-container {
     display: flex;
     gap: 1.4rem;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center; 
     }
     .view, .touch {
