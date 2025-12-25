@@ -983,7 +983,7 @@ footer {
     .button-container {
     display: flex;
     gap: 1.4rem;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center; 
     }
     .view, .touch {
