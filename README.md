@@ -3,7 +3,7 @@
 A high-performance, responsive portfolio website showcasing modern web development techniques, including custom CSS animations, theme switching, and scroll-linked interactions.
 
 ## 🚀 Live Demo
-**[View the Live Project Here](https://your-netlify-url-here.netlify.app/)** 
+**[View the Live Project Here](https://dannywebportfolios.netlify.app/)** 
 
 ## ✨ Key Features
 * **Dynamic Theme Switcher**: A custom-built Dark/Light mode toggle that persists using `localStorage`.
