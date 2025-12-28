@@ -982,7 +982,7 @@ footer {
         left: 4px;
     }
     .checkbox:checked + .slider::before {
-        transform: translateX(34px); 
+        transform: translateX(31px); 
     }
     #aboutme{
         display: flex;
