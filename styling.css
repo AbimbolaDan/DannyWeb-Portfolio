@@ -577,7 +577,6 @@ nav ul li a.brand, nav ul li.brand {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: -20px auto;
 }
 
 .project-title {
@@ -1078,6 +1077,19 @@ footer {
     }
     #project{
         padding: 4rem 2rem 6rem;
+    }
+    .project-grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .project-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .project-tags{
+        flex-wrap: wrap;
     }
     #experience{
        padding: 5rem 2rem 3rem;
